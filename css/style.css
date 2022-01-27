@@ -76,6 +76,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
+  text-decoration: none;
   color: #757575;
 }
 .telefon {
@@ -84,6 +85,7 @@ body {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #757575;
 }
 .main__hi {
@@ -264,6 +266,7 @@ body {
 }
 .adress {
   font-family: Roboto;
+  text-decoration: none;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -276,6 +279,7 @@ body {
 }
 .mail-2 {
   font-family: Roboto;
+  text-decoration: none;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -285,6 +289,7 @@ body {
 }
 .telefon-2 {
   font-family: Roboto;
+  text-decoration: none;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
