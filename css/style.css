@@ -70,7 +70,6 @@ body {
   color: #2196f3;
 }
 .mail {
-  position: absolute;
   width: 135px;
   height: 16px;
   left: 1078px;
@@ -79,32 +78,31 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
+  margin-right: 50px;
 }
 .telefon {
-  position: absolute;
   width: 122px;
   height: 16px;
   left: 1263px;
   top: 32px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0.87;
   letter-spacing: 0.02em;
   color: #757575;
 }
 /* конец общей верхней части */
 .main__hi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
   background: #2f303a;
 }
 .hi__title {
-  position: absolute;
   width: 696px;
   height: 120px;
-  left: 452px;
-  top: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -141,6 +139,7 @@ body {
   color: #212121;
   margin-bottom: 10px;
   margin-top: 94px;
+  text-transform: uppercase;
 }
 
 .content__adv_item-text {
@@ -151,6 +150,10 @@ body {
   text-align: left;
   color: #757575;
   margin-bottom: 94px;
+}
+.main__content {
+  width: 1170px;
+  padding: 0px 215px;
 }
 .content__what {
   display: flex;
@@ -173,9 +176,9 @@ body {
   padding: 0;
 }
 
-/*.content__what_imgs-image {
+.content__what_imgs-image {
   margin-right: 20px;
-}*/
+}
 
 .team {
   font-family: Roboto;
@@ -212,6 +215,13 @@ body {
   align-items: center;
   list-style: none;
   justify-content: center;
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 .button {
   border: none;
@@ -224,6 +234,7 @@ body {
   text-decoration: none;
   background: #f5f4fa;
   margin-right: 8px;
+  white-space: nowrap;
 }
 .items {
   list-style: none;
@@ -253,7 +264,6 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  padding: 186px 215px 202px;
 }
 .bot {
   width: 370px;
@@ -261,9 +271,9 @@ body {
   left: 215px;
   top: 262px;
 }
-/*.item {
+.item {
   margin-right: 30px;
-}*/
+}
 
 /* Футер для всех */
 .end {
@@ -272,11 +282,8 @@ body {
   background-color: #2f303a;
 }
 .webstydia_2 {
-  position: absolute;
   width: 145px;
   height: 31px;
-  left: 215px;
-  top: 2157px;
   text-decoration: none;
   cursor: pointer;
   font-family: Raleway;
@@ -289,13 +296,11 @@ body {
 }
 .call {
   list-style: none;
+  display: flex;
 }
 .adress {
-  position: absolute;
   width: 231px;
   height: 21px;
-  left: 215px;
-  top: 2208px;
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
@@ -308,28 +313,26 @@ body {
   color: #ffffff;
 }
 .workspake {
+  padding: 94px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #f5f4fa;
-  width: 1600px;
+  width: 1330px;
 }
 .mail_2 {
-  position: absolute;
   width: 231px;
   height: 21px;
-  left: 215px;
-  top: 2238px;
   font-size: 14px;
   line-height: 171%;
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-right: 10px;
 }
 .telefon_2 {
-  position: absolute;
   width: 231px;
   height: 21px;
-  left: 215px;
-  top: 2268px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -339,4 +342,9 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
