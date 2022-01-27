@@ -70,54 +70,48 @@ body {
   color: #2196f3;
 }
 .mail {
-  font-family: Roboto;
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
   font-size: 14px;
-  font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-align: left;
-  text-decoration: none;
-  color: #757575;
+  color: #2196f3;
 }
 .telefon {
-  font-family: Roboto;
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
   font-size: 14px;
-  font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: #757575;
 }
+/* конец общей верхней части */
 .main__hi {
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background: #000;
   width: 1600px;
-}
-.main__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px 0px 80px 0px;
-  width: 1200px;
-  margin: 215px;
-}
-
-.hi__item {
-  width: 450px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
 }
 .hi__title {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 44px;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
   font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 0.06em;
+  font-size: 44px;
+  line-height: 136%;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .hi__button {
   width: 200px;
@@ -128,6 +122,7 @@ body {
   color: #fff;
   cursor: pointer;
   border-radius: 4px;
+  text-align: center;
 }
 .content__adv {
   display: flex;
@@ -138,7 +133,6 @@ body {
 }
 
 .content__adv_item-title-text {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -150,7 +144,6 @@ body {
 }
 
 .content__adv_item-text {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -180,35 +173,29 @@ body {
   padding: 0;
 }
 
-.content__what_imgs-image {
+/*.content__what_imgs-image {
   margin-right: 20px;
-}
+}*/
 
 .team {
-  padding-top: 94px;
-  text-align: center;
   font-family: Roboto;
   font-size: 36px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 42px;
+  line-height: 0.85;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .peoples {
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 19px;
+  line-height: 0.84px;
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
 }
 .peoples-2 {
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19px;
+  line-height: 0.84px;
   letter-spacing: 0.03em;
   text-align: center;
   color: #757575;
@@ -244,66 +231,6 @@ body {
   flex-wrap: wrap;
   padding: 0px;
 }
-.end {
-  padding: 60px 215px;
-  width: 1170px;
-  background-color: #2f303a;
-}
-.bot {
-  width: 370px;
-  height: 294px;
-  left: 215px;
-  top: 262px;
-}
-.item {
-  margin-right: 30px;
-}
-.items-2 {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 186px 215px 202px;
-}
-.adress {
-  font-family: Roboto;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff;
-}
-.call {
-  list-style: none;
-}
-.mail-2 {
-  font-family: Roboto;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff99;
-}
-.telefon-2 {
-  font-family: Roboto;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff99;
-}
-.shit-2 {
-  color: #ffffff;
-}
-.workspake {
-  background-color: #f5f4fa;
-  width: 1600px;
-}
 .bot-title {
   font-family: Roboto;
   font-size: 18px;
@@ -321,4 +248,95 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
+}
+.items-2 {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 186px 215px 202px;
+}
+.bot {
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 262px;
+}
+/*.item {
+  margin-right: 30px;
+}*/
+
+/* Футер для всех */
+.end {
+  padding: 60px 215px;
+  width: 1170px;
+  background-color: #2f303a;
+}
+.webstydia_2 {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 0.83;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  margin-right: 93px;
+}
+.call {
+  list-style: none;
+}
+.adress {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.shit-2 {
+  color: #ffffff;
+}
+.workspake {
+  background-color: #f5f4fa;
+  width: 1600px;
+}
+.mail_2 {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2238px;
+  font-size: 14px;
+  line-height: 171%;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.telefon_2 {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2268px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
