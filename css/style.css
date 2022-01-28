@@ -72,25 +72,29 @@ body {
 .mail {
   width: 135px;
   height: 16px;
-  left: 1078px;
-  top: 32px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0.87;
   letter-spacing: 0.02em;
   color: #2196f3;
   margin-right: 50px;
+  text-decoration: none;
 }
 .telefon {
   width: 122px;
   height: 16px;
-  left: 1263px;
-  top: 32px;
   font-size: 14px;
   line-height: 0.87;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.call {
+  list-style: none;
+  display: flex;
 }
 /* конец общей верхней части */
+/* главная */
 .main__hi {
   display: flex;
   justify-content: center;
@@ -162,6 +166,7 @@ body {
   width: 1170px;
   justify-content: center;
   padding: 0px 215px;
+  padding-bottom: 94px;
 }
 .content__what_title {
   text-align: center;
@@ -179,11 +184,26 @@ body {
 .content__what_imgs-image {
   margin-right: 20px;
 }
+.workspake {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+}
+.items-2 {
+  list-style: none;
+  display: flex;
 
+  justify-content: center;
+}
+.item {
+  margin-right: 30px;
+}
 .team {
   font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 0.85;
   letter-spacing: 0.03em;
@@ -191,18 +211,19 @@ body {
 }
 .peoples {
   font-size: 16px;
-  line-height: 0.84px;
+  line-height: 0.84;
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
 }
 .peoples-2 {
   font-size: 16px;
-  line-height: 0.84px;
+  line-height: 0.84;
   letter-spacing: 0.03em;
   text-align: center;
   color: #757575;
 }
+/* Главная конец */
 
 .main {
   display: flex;
@@ -214,7 +235,7 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
-  justify-content: center;
+  justify-content: flex-start;
   position: absolute;
   width: 128px;
   height: 38px;
@@ -225,7 +246,7 @@ body {
 }
 .button {
   border: none;
-  font: inherit;
+  font-family: inherit;
   color: inherit;
   background-color: transparent;
   cursor: pointer;
@@ -240,10 +261,8 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  padding: 0px;
 }
 .bot-title {
-  font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
@@ -252,7 +271,6 @@ body {
   color: #212121;
 }
 .bot-pre-title {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -260,19 +278,12 @@ body {
   text-align: left;
   color: #757575;
 }
-.items-2 {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .bot {
   width: 370px;
   height: 294px;
   left: 215px;
   top: 262px;
-}
-.item {
-  margin-right: 30px;
 }
 
 /* Футер для всех */
@@ -294,54 +305,45 @@ body {
   color: #2196f3;
   margin-right: 93px;
 }
-.call {
-  list-style: none;
-  display: flex;
-}
+
 .adress {
   width: 231px;
   height: 21px;
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  line-height: 0.58;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .shit-2 {
   color: #ffffff;
 }
-.workspake {
-  padding: 94px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #f5f4fa;
-  width: 1330px;
-}
+
 .mail_2 {
   width: 231px;
   height: 21px;
   font-size: 14px;
-  line-height: 171%;
-  /* or 171% */
+  line-height: 0.58;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-right: 10px;
+  text-decoration: none;
 }
 .telefon_2 {
   width: 231px;
   height: 21px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  line-height: 0.58;
   letter-spacing: 0.03em;
-
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  padding-top: 32px;
+}
+.call-2 {
+  list-style: none;
+  margin-bottom: 9px;
 }
 ul,
 li {
