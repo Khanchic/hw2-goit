@@ -12,7 +12,7 @@ body {
   background: #ffffff;
   align-items: center;
   margin: 0px;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 }
 .webstydia {
   text-decoration: none;
@@ -265,7 +265,7 @@ body {
 .bot-title {
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 0.53;
   letter-spacing: 0.06em;
   text-align: left;
   color: #212121;
@@ -273,7 +273,7 @@ body {
 .bot-pre-title {
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 0.53;
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
