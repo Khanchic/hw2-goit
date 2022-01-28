@@ -137,7 +137,7 @@ body {
 .content__adv_item-title-text {
   font-size: 14px;
   font-weight: 700;
-  line-height: 16px;
+  line-height: 0.58;
   letter-spacing: 0.03em;
   text-align: left;
   color: #212121;
@@ -149,7 +149,7 @@ body {
 .content__adv_item-text {
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 0.58;
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
