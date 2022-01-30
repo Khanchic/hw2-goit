@@ -1,14 +1,18 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .heading {
   display: flex;
   padding: 0px 215px;
   width: 1170px;
   height: 80px;
-  left: 0px;
-  top: 0px;
   background: #ffffff;
   align-items: center;
   margin: 0px;
@@ -100,8 +104,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 1600px;
+
   height: 600px;
+  left: 0px;
+
   background: #2f303a;
 }
 .hi__title {
@@ -127,11 +133,9 @@ body {
   text-align: center;
 }
 .content__adv {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .content__adv_item-title-text {
@@ -144,26 +148,26 @@ body {
   margin-bottom: 10px;
   margin-top: 94px;
   text-transform: uppercase;
+  white-space: nowrap;
+  margin-right: 30px;
 }
 
 .content__adv_item-text {
   font-size: 14px;
   font-weight: 400;
-  line-height: 0.58;
+  line-height: 0.87;
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
-  margin-bottom: 94px;
 }
 .main__content {
-  width: 1170px;
   padding: 0px 215px;
+  text-decoration: none;
 }
 .content__what {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1170px;
   justify-content: center;
   padding: 0px 215px;
   padding-bottom: 94px;
@@ -189,7 +193,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: #f5f4fa;
-  width: 1600px;
+
   height: 648px;
 }
 .items-2 {
@@ -202,7 +206,6 @@ body {
   margin-right: 30px;
 }
 .team {
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 0.85;
@@ -228,21 +231,16 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  padding: 180px 215px 94px 215px;
+  padding: 94px 215px 94px 215px;
   width: 1170px;
+}
+.port-butts {
+  margin-right: 8px;
+  margin-bottom: 50px;
 }
 .buttons {
   display: flex;
-  align-items: center;
-  list-style: none;
-  justify-content: flex-start;
-  position: absolute;
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
-  background: #f5f4fa;
-  border-radius: 4px;
+  justify-content: center;
 }
 .button {
   border: none;
@@ -253,8 +251,14 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
   background: #f5f4fa;
-  margin-right: 8px;
+
   white-space: nowrap;
 }
 .items {
@@ -288,8 +292,6 @@ body {
 
 /* Футер для всех */
 .end {
-  padding: 60px 215px;
-  width: 1170px;
   background-color: #2f303a;
 }
 .webstydia_2 {
@@ -314,8 +316,6 @@ body {
   line-height: 0.58;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-top: 20px;
-  margin-bottom: 9px;
 }
 
 .shit-2 {
@@ -339,7 +339,6 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  padding-top: 32px;
 }
 .call-2 {
   list-style: none;
@@ -347,6 +346,7 @@ body {
 }
 ul,
 li {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
