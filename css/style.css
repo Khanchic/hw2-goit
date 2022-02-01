@@ -15,7 +15,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 0.83;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
   margin-right: 93px;
@@ -28,7 +28,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
   color: #212121;
@@ -38,7 +38,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
   color: #212121;
@@ -48,7 +48,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
   color: #212121;
@@ -62,17 +62,16 @@ body {
   width: 135px;
   height: 16px;
   font-size: 14px;
-  line-height: 0.87;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
-
   text-decoration: none;
 }
 .telefon {
   width: 122px;
   height: 16px;
   font-size: 14px;
-  line-height: 0.87;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
@@ -115,7 +114,7 @@ body {
 .content__adv_item-title-text {
   font-size: 14px;
   font-weight: 700;
-  line-height: 0.58;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
   color: #212121;
@@ -128,7 +127,7 @@ body {
 .content__adv_item-text {
   font-size: 14px;
   font-weight: 400;
-  line-height: 0.87;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
@@ -151,30 +150,24 @@ body {
 .team {
   font-size: 36px;
   font-weight: 700;
-  line-height: 0.85;
+  line-height: 1.16;
   letter-spacing: 0.03em;
-  text-align: center;
 }
 .peoples {
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.18;
   letter-spacing: 0.03em;
-  text-align: center;
+
   color: #212121;
 }
 .peoples-2 {
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.18;
   letter-spacing: 0.03em;
-  text-align: center;
+
   color: #757575;
 }
 /* Главная конец */
-
-.port-butts {
-  margin-right: 8px;
-  margin-bottom: 50px;
-}
 
 .button {
   border: none;
@@ -187,13 +180,15 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.62;
-  text-align: center;
+  line-height: 1.62;
   letter-spacing: 0.03em;
   color: #212121;
   background: #f5f4fa;
-
   white-space: nowrap;
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .items {
   list-style: none;
@@ -201,7 +196,7 @@ body {
 .bot-title {
   font-size: 18px;
   font-weight: 700;
-  line-height: 0.53;
+  line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
   color: #212121;
@@ -209,7 +204,7 @@ body {
 .bot-pre-title {
   font-size: 16px;
   font-weight: 400;
-  line-height: 0.53;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
@@ -234,10 +229,9 @@ body {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 0.83;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-  margin-right: 93px;
 }
 
 .adress {
@@ -245,7 +239,7 @@ body {
   height: 21px;
   font-style: normal;
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -256,7 +250,7 @@ body {
 
 .mail_2 {
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -265,14 +259,13 @@ body {
   width: 231px;
   height: 21px;
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 .call-2 {
   list-style: none;
-  margin-bottom: 9px;
 }
 ul,
 li {
