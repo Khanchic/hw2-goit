@@ -58,18 +58,16 @@ body {
   color: #2196f3;
 }
 .mail {
-  width: 135px;
-  height: 16px;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
   text-decoration: none;
 }
 .telefon {
-  width: 122px;
-  height: 16px;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
@@ -88,8 +86,6 @@ body {
   background: #2f303a;
 }
 .hi__title {
-  width: 696px;
-  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -100,6 +96,7 @@ body {
 }
 .hi__button {
   width: 200px;
+  font-family: Roboto;
   height: 50px;
   font-size: 20px;
   background: #2196f3;
@@ -108,6 +105,14 @@ body {
   cursor: pointer;
   border-radius: 4px;
   text-align: center;
+}
+.content__what_title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .content__adv_item-title-text {
@@ -163,6 +168,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  font-weight: 400;
 
   color: #757575;
 }
