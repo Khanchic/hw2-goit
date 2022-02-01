@@ -8,16 +8,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.heading {
-  display: flex;
-  padding: 0px 215px;
-  width: 1170px;
-  height: 80px;
-  background: #ffffff;
-  align-items: center;
-  margin: 0px;
-  justify-content: space-between;
-}
+
 .webstydia {
   text-decoration: none;
   cursor: pointer;
@@ -32,12 +23,8 @@ body {
 .shit {
   color: #212121;
 }
-.menu {
-  display: flex;
-  list-style: none;
-}
+
 .studia {
-  margin-right: 50px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -48,7 +35,6 @@ body {
   cursor: pointer;
 }
 .portfolio {
-  margin-right: 50px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -59,7 +45,6 @@ body {
   cursor: pointer;
 }
 .contacs {
-  margin-right: 331px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -80,7 +65,7 @@ body {
   line-height: 0.87;
   letter-spacing: 0.02em;
   color: #2196f3;
-  margin-right: 50px;
+
   text-decoration: none;
 }
 .telefon {
@@ -95,16 +80,10 @@ body {
 }
 .call {
   list-style: none;
-  display: flex;
 }
 /* конец общей верхней части */
 /* главная */
 .main__hi {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
   height: 600px;
   left: 0px;
 
@@ -132,11 +111,6 @@ body {
   border-radius: 4px;
   text-align: center;
 }
-.content__adv {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
 
 .content__adv_item-title-text {
   font-size: 14px;
@@ -149,7 +123,6 @@ body {
   margin-top: 94px;
   text-transform: uppercase;
   white-space: nowrap;
-  margin-right: 30px;
 }
 
 .content__adv_item-text {
@@ -161,50 +134,20 @@ body {
   color: #757575;
 }
 .main__content {
-  padding: 0px 215px;
   text-decoration: none;
-}
-.content__what {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 215px;
-  padding-bottom: 94px;
-}
-.content__what_title {
-  text-align: center;
-  font-size: 36px;
 }
 
 .content__what_imgs {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   list-style: none;
-  padding: 0;
 }
 
-.content__what_imgs-image {
-  margin-right: 20px;
-}
 .workspake {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-color: #f5f4fa;
-
-  height: 648px;
 }
 .items-2 {
   list-style: none;
-  display: flex;
+}
 
-  justify-content: center;
-}
-.item {
-  margin-right: 30px;
-}
 .team {
   font-size: 36px;
   font-weight: 700;
@@ -228,20 +171,11 @@ body {
 }
 /* Главная конец */
 
-.main {
-  display: flex;
-  flex-direction: column;
-  padding: 94px 215px 94px 215px;
-  width: 1170px;
-}
 .port-butts {
   margin-right: 8px;
   margin-bottom: 50px;
 }
-.buttons {
-  display: flex;
-  justify-content: center;
-}
+
 .button {
   border: none;
   font-family: inherit;
@@ -263,8 +197,6 @@ body {
 }
 .items {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
 }
 .bot-title {
   font-size: 18px;
@@ -323,8 +255,6 @@ body {
 }
 
 .mail_2 {
-  width: 231px;
-  height: 21px;
   font-size: 14px;
   line-height: 0.58;
   letter-spacing: 0.03em;
